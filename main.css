@@ -1,0 +1,102 @@
+
+
+.head{
+    background-color: rgba(0, 64, 255, 0.425);
+    height: 80px;
+
+}
+.inhead{
+    background-color: rgb(20, 99, 133);
+    color:#fff;
+    margin-left: 400px;
+    margin-right: 400px;
+    height: 70px;
+    width: 300px;
+    border: 1px solid blue;
+    padding-left: 10px;
+    border-radius: 50px;
+    text-align: center;
+    padding-bottom: 6px;
+    
+}
+select{
+    padding-left: 5PX;
+    margin-left: 10px;
+    height: 40px;
+    width: 250px;
+    background-color: aquamarine;
+    border-radius: 100px;
+    font-size: 15px;
+    padding-left: 30px;
+
+}
+input{
+    margin-left: 250px;
+    border-radius: 100px;
+    height: 40px;
+    width: 200px;
+    border:2px solid blue;
+}
+button{
+    border-radius: 100px;
+    height: 50px;
+    width: 100px;
+    background-color: red;
+    color: white;
+}
+.b1{
+    margin-left: 250px;
+}
+.container {
+    display: flex; /* Use flexbox for layout */
+    align-items: left; /* Center items vertically */
+  }
+  .image {
+    flex:0 0 auto; /* Don't allow image to grow or shrink */
+    margin-right: 20px; /* Add some space between image and text */
+    height: 150px;
+  }
+  .content {
+    flex: 5; /* Allow content to grow to fill remaining space */
+  }
+  footer {
+    background-color: #7e1356;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .container {
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  button:hover {
+    background-color: #04AA6D; /* Green */
+    color: white;
+  }
+  .hide{
+    display: none;
+
+  }
+  .mydiv:hover+.hide{
+    display: block;
+    color: white;
+    background-color: blue;
+  }
+  .nav1{
+    background-color: rgb(0, 139, 51);
+    color: white;
+  }
+  button{
+    width: 150px;
+    border-color: blueviolet;
+  }
+  input{
+    text-align: center;
+  }
+  a{
+    padding-left: 1000px;
+  }
+  body{
+    font-family: Verdana, sans-serif;
+  }
+
